@@ -1,0 +1,17 @@
+.prompt {
+    size: 5em;
+    font-size: 0.8em;
+    margin-top: 80px;
+}
+
+
+.prompt-text {
+    /* Clean and professional font */
+   font-size: 1rem; /* Slightly larger for emphasis */
+   font-weight: bold; /* Makes the text stand out */
+   color: #43a1b4; /* Vibrant cyan for contrast on black */
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 8px #d1e780; /* Glow effect */
+   letter-spacing: 1px; /* Slight spacing for readability */
+   text-align: center; /* Center-align the text */
+   margin: 20px; /* Add spacing from other elements */
+}

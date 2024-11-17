@@ -1,0 +1,50 @@
+
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h4 {
+    width: auto;
+    display: inline-block;
+
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(100, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  .text{
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    filter: brightness(2);
+  }
+
+  .text {
+     /* Clean and professional font */
+    font-size: 1.5rem; /* Slightly larger for emphasis */
+    font-weight: bold; /* Makes the text stand out */
+    
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 8px #d1e780; Glow effect */
+    letter-spacing: 1px; /* Slight spacing for readability */
+    text-align: center; /* Center-align the text */
+    margin: 20px; /* Add spacing from other elements */
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
